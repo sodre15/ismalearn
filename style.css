@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(fundo-madeira.jpg);
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h2{
+    color: yellow;
+    text-align: center;
+    font-family: Candreva;
+    font-size: 50px;
+    margin-top: 300px;
+
+
+}
+.container{
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    font-size: 45px;
+    font-style: italic;
+    color: yellow;
+    font-weight: bold;
+}
+nav .logo:hover{
+    color: yellow;
+    
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 10px 20px;
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: yellow;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.562);
+    margin: 5px;
+    border:transparent;
+    border-radius: 20px solid #000;
+}
+
+
+
+main h1{
+    text-align: center;
+    padding: 5px; 
+    color: #fff;
+            background: linear-gradient(45deg, #000, #fff);
+            margin-top: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        
+}
+main p{
+    margin: 10px;
+    word-spacing: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    justify-items: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 3px;
+
+    color: #fff;
+            background: linear-gradient(45deg, #000, #fff);
+            margin-top: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+iframe{
+    margin:10px;
+    
+}
+caption{
+    background-color: rgba(255, 255, 255, 0.623);
+    font-size: 20px;
+    border-radius: 5px 5px 0 0;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+tr, td, th{
+    border: 1px solid black ;
+    font-size: 18px;
+    text-align: center;
+    width: 400px;
+} 
+.name{
+    margin: auto;
+}
+.conju{
+    margin: auto;
+}
+.conju2{
+    margin: auto;
+}
+.prepo{
+    margin: auto;
+}
+iframe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.blink {
+    animation: blink-animation 1s steps(2, start) infinite;
+    text-align: center;
+    color: yellow;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.prova{
+    
+        max-width: 100%;
+        height: 500px;
+        width: 80%; /* Largura inicial, ajuste conforme necessário */
+        margin-left: 90px;
+    
+}
+.mensao{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+
+
+
+
+
+
